@@ -1,0 +1,40 @@
+
+/* NAVEGACIÓN */
+
+
+
+
+/*--CUERPO--*/
+#cuerpo{
+    background: wheat; /*rgb(17, 34, 34)*/
+    opacity: .98;
+    color: antiquewhite;
+}
+
+#cuerpo .principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    margin: 0 15px;
+    background: #28a745;
+}
+
+#cuerpo .principal .parte-1{
+    height: 100px;
+    width: 30%;
+    background: tomato;
+}
+
+
+#cuerpo .principal .parte-2{
+    height: 100px;
+    width: 50%;
+    background: violet;
+}
+
+
+#cuerpo .principal .parte-3{
+    height: 100px;
+    width: 20%;
+    background: tomato;
+}

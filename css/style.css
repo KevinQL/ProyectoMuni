@@ -1,0 +1,86 @@
+/*=============================================
+NEWS Noticias           
+=============================================*/
+.newsp .news{
+    background: white;
+   
+    border-bottom:  2px solid blue;
+    border-radius: 0 0 12px 12px;
+    margin-top: 15px;
+}
+.newsp .news h4{
+    text-align: left; 
+    padding-left:10px;
+    color: #369;
+}
+.newsp .news .vermas{
+    
+    
+    border-radius:0 0 12px 12px;
+    
+   
+}
+.newsp .news  a{
+    float: right;
+    
+   
+}
+/*-----------Footer------------------*/
+footer{
+    background: rgba(60,170,40,1);
+}
+.copyLegal{
+    background: #545454;
+    color: #fff;
+    text-align: center;
+    line-height: 8px;
+    padding-top: 6px;
+    padding-bottom: 0.02px;
+    font-size: 12px;
+}
+footer .footerAll{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*=============================================
+CONTÁCTENOS           
+=============================================*/
+
+footer#contactenos iframe{
+	height:320px;
+}
+
+footer#contactenos h4{
+	line-height:30px;
+}
+
+footer#contactenos ol{
+	position: relative;
+	list-style:none;
+	margin:auto;
+	width:215px;
+	background: silver;
+}
+	
+footer#contactenos ol li a{
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	margin:20px 5px;
+	text-align:center;
+	line-height:52px;
+	color:rgba(0,50,100,1);
+	background:white;
+}
+
+footer#contactenos #formulario{
+	background:rgba(0,50,100,1);
+	padding:40px;
+}
+
+footer#contactenos #formulario form input{
+	margin:20px auto;
+}

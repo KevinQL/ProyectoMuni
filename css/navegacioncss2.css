@@ -1,0 +1,106 @@
+:root{
+    --color-toggle : #444;
+    /*sin hover*/
+    --bg-menu: darkolivegreen;
+    --text-menu: wheat;
+    /*con hover */
+    --h-bg-menu:rgb(69, 90, 32);  
+    --h-text-menu:wheat;
+    /*con hover submenu*/
+    --h-bg-submenu: whitesmoke;
+    --h-text-submenu: black;
+}
+
+.lista-menu .lista{
+    border-bottom: 1px solid #fff;
+    padding: 15px 50px;
+    background: var(--bg-menu);
+    color:var(--text-menu);
+}
+
+.lista-menu .lista:hover{
+    background: var(--h-bg-submenu);
+    color: var(--h-text-submenu);
+}
+
+.cabeza2{    /*Para que los menus extiendan el color de sus fondos todo el vertical del navegador*/
+    background: var(--bg-menu);
+    padding-bottom: 0px;  /*coloca los menus en la parte baja de la navegaci+on*/
+    padding-top: 0px;
+    
+    /*border-radius: 0 0 10px 10px; /* Redondear*/
+}
+
+.lista-menu{  /***/
+    padding: 0px;
+    border: none;
+}
+
+#menu .bton{
+    color:var(--text-menu)!important;
+    text-decoration: none;
+    /*background: var(--color-toggle);*/
+    padding: 20px 15px!important;  /*determina el tamaño de los menus*/
+}
+
+#menu .bton:hover{
+    text-decoration: none;
+    color: var(--h-text-menu);
+    background: var(--h-bg-menu);
+}
+#menu .btn-img:hover{
+    background: transparent;
+}
+
+.cabeza2 .contiene{
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+}
+.cabeza2 #menu{
+    width: 100%;
+    margin:0%;
+    border-radius: 8px;
+
+}
+
+
+.muni-text{   /*Modificando Nombre medio de la municpalidad*/
+    cursor: pointer;
+    width: 250px;
+    background: transparent;
+    vertical-align: top;
+    height:70px;  /*64px original + 10 quitados*/
+    margin-top:-7px;
+    position:relative;
+
+    border-radius: 10px 10px 0 0; /* Borde radio para el texto de la muni*/
+    
+    /*line-height: 17px;*/ /* para centrar verticalmente*/
+}
+
+#menu ul{           /*Distribuyiendo los menus proporcionalmente*/
+    /*background: tomato;*/
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width:994px){
+    
+    .muni-text-li{
+        display: none;   /*Ocultando nombre de la municipalidad para celulares*/
+    }
+}
+
+@media (max-width:768px){
+    .cabeza2{ 
+        padding-left: 5px;   /*extiende el fondo del header en el tamaño especificado*/
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+}
