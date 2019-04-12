@@ -71,3 +71,9 @@
 .menu-vertical-redes-s ul .e:hover{
     background: #666666;
 }
+
+@media (max-width:576px){
+    .menu-vertical-redes-s{
+        display: none;
+    }
+}
