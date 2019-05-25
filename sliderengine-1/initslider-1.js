@@ -207,13 +207,9 @@ jQuery(document).ready(function(){
         textpositionmarginbottom:24,
         lightboxshowtitle:true,
         socialmode:"mouseover",
-        slice: {
-            checked:true,
-            effectdirection:0,
-            effects:"up,down,updown",
-            slicecount:10,
-            duration:1500,
-            easing:"easeOutCubic"
+        tiles: {
+            duration:2000,
+            checked:true
         },
         blocks: {
             columncount:5,
@@ -223,7 +219,30 @@ jQuery(document).ready(function(){
             duration:1500,
             easing:"easeOutCubic"
         },
-        transition:"slice,blocks",
+        flip: {
+            duration:1500,
+            checked:true
+        },
+        threedhorizontal: {
+            checked:true,
+            effectdirection:0,
+            bgcolor:"#222222",
+            perspective:1000,
+            slicecount:1,
+            duration:1500,
+            easing:"easeOutCubic",
+            fallback:"slice",
+            scatter:5,
+            perspectiveorigin:"bottom"
+        },
+        blinds: {
+            duration:2000,
+            easing:"easeOutCubic",
+            checked:true,
+            effectdirection:0,
+            slicecount:3
+        },
+        transition:"tiles,blocks,flip,threedhorizontal,blinds",
         scalemode:"fill",
         isfullscreen:false,
         textformat: {
