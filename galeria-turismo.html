@@ -19,6 +19,24 @@
     <link rel="stylesheet" href="css/rs-estilos.css">
 
 
+    <style>
+        .turismo-galery-modal{
+            position: absolute;
+            display: block;
+            width: 100%;
+            bottom:0px;
+            background: rgba(0, 0, 0, .5);   
+        }
+
+        .turismo-modal-body{
+            border: 2px solid #fff;
+        }
+
+        .turismo-modal-interno{
+            position: relative;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -94,22 +112,23 @@
                             
 
 <!-- Button trigger modal -->
-<a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+<a href="#" data-toggle="modal" data-target="#turismo-img-1">
   <img src="img/img1.jpg" height="200px" class="card-img" alt="...">
 </a>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="turismo-img-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
 
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/img1.jpg" width="100%" alt="">
-      </div>
+    <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
+        <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
+            <img src="img/img1.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
+            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sit.</span>
+        </div>
     </div>
   </div>
 </div>
@@ -119,10 +138,50 @@
 
                         </div>
                         <div class="p-1">
-                            <img src="img/img2.jpg" height="200px" class="card-img" alt="...">
+<!-- Button trigger modal -->
+<a href="#" data-toggle="modal" data-target="#turismo-img-2">
+    <img src="img/img2.jpg" height="200px" class="card-img" alt="...">  
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="turismo-img-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
+        <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
+            <img src="img/img2.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
+            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sit.</span>
+        </div>
+    </div>
+  </div>
+</div>                            
                         </div>
-                        <div class="p-1">
-                            <img src="img/img3.jpg" height="200px" class="card-img" alt="...">
+                        <div class="p-1">                            
+<!-- Button trigger modal -->
+<a href="#" data-toggle="modal" data-target="#turismo-img-3">
+    <img src="img/img3.jpg" height="200px" class="card-img" alt="...">  
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="turismo-img-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
+        <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
+            <img src="img/img3.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
+            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sit.</span>
+        </div>
+    </div>
+  </div>
+</div>                            
                         </div>
                     </div>
                     <div class="col-md-8">
