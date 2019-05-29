@@ -69,6 +69,31 @@
         #amazingslider-1{
             margin:0px 0px!important;
         }
+
+
+        /* SLIDER INSTITUCIONES EXTERNAS  */
+        .content-slider-iex{
+            width: 100%; /*Ancho del contenedor slider infiinte*/
+            margin:auto;
+            overflow: hidden;
+            /* background: black; */
+        }
+        .content-slider-iex img{
+            width: 250px;
+        }
+        .slider-ie{
+            width: 2545px; /*Calcular probando. 1268px para 5 img*/
+            display: block;
+            position: relative;
+            animation: sliderie 25s infinite linear;
+            left:-1268px;
+        }
+        @keyframes sliderie {
+            to{
+                left: 0px; /* 250 * 5 img = 1250px*/
+            }
+        }
+
         
     </style>
 
@@ -262,8 +287,43 @@
 
 
     <div class="bg-danger">
-        <div class="container py-4">
-            imagenes instituciones
+        <div class="container py-4 text-center">
+            <h3>INSTITUCIONES EXTERNAS</h3>
+            <div class="content-slider-iex">
+                <div class="slider-ie">
+
+                    <!-- copa 1 slider -->
+                    <a href="#">
+                        <img src="images/img1.jpg" class="ing-fluid"  alt="">
+                    <a href="#">
+                        <img src="images/img2.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/img3.jpg" class="ing-fluid"  alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/img4.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/img5.jpg" class="img-fluid" alt="">
+                    </a>
+                    <!-- copia 2 slider -->
+                    <a href="#">
+                        <img src="images/img1.jpg" class="ing-fluid"  alt="">
+                    <a href="#">
+                        <img src="images/img2.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/img3.jpg" class="ing-fluid"  alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/img4.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/img5.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
