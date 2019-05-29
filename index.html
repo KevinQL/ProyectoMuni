@@ -72,25 +72,32 @@
 
 
         /* SLIDER INSTITUCIONES EXTERNAS  */
+        
         .content-slider-iex{
             width: 100%; /*Ancho del contenedor slider infiinte*/
             margin:auto;
-            overflow: hidden;
-            /* background: black; */
+            overflow: hidden; /*Oculta scrool*/           
         }
         .content-slider-iex img{
-            width: 250px;
+            width: 100%;
+            height: 110px;
         }
+
         .slider-ie{
-            width: 2545px; /*Calcular probando. 1268px para 5 img*/
+            width: 5200px; /*Calcular probando. 2600px para 13 img*/
             display: block;
             position: relative;
-            animation: sliderie 25s infinite linear;
-            left:-1268px;
+            animation: sliderie 45s infinite linear;
+            left:-2600px; /*-2600 para que retorne y avanzara a cero */
         }
+
+        .col-img-ie{
+            width: 200px; /*Tamaño de las imagens de los sliders de links externos*/
+        }
+
         @keyframes sliderie {
             to{
-                left: 0px; /* 250 * 5 img = 1250px*/
+                left: 0px; /* 200 * 13 img = 2600px*/
             }
         }
 
@@ -287,7 +294,7 @@
 
 
     <div class="bg-light">
-        <div class="container py-4 text-center text-muted">
+        <div class="container py-4 text-muted">
             <div class="text-center p-4">
                 <h3 class="">INSTITUCIONES EXTERNAS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique assumenda aliquid, eligendi aspernatur minus odio?</p>
@@ -296,37 +303,167 @@
                 <div class="slider-ie">
 
                     <!-- copa 1 slider -->
-                    <a href="#">
-                        <img src="img/img2.jpg" class="ing-fluid"  alt="">
+                    <!-- <a href="#">
+                        <img src="img/img2.jpg" class="img-fluid"  alt="">
                     </a>
                     <a href="#">
                         <img src="images/img2.jpg" class="img-fluid" alt="">
                     </a>
                     <a href="#">
-                        <img src="images/img3.jpg" class="ing-fluid"  alt="">
+                        <img src="images/img3.jpg" class="img-fluid"  alt="">
                     </a>
                     <a href="#">
                         <img src="images/img4.jpg" class="img-fluid" alt="">
                     </a>
                     <a href="">
                         <img src="images/img5.jpg" class="img-fluid" alt="">
-                    </a>
+                    </a> -->
                     <!-- copia 2 slider -->
-                    <a href="#">
-                        <img src="img/img2.jpg" class="ing-fluid"  alt="">
+                    <div class="row py-2 m-0">
+
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img1.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img3.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img4.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>                                                   
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div> 
+                        <!-- reepeat img -->
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img1.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img3.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img4.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>
+                        </div>
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>                                                   
+                        <div class="col-img-ie pl-1">
+                            <a href="#" class="">
+                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            </a>                        
+                        </div>                         
+                        
+                    </div>            
+
+                    <!-- <a href="#" class="">
+                        <img src="images/img3.jpg" class="img-fluid"  alt="">
                     </a>
-                    <a href="#">
-                        <img src="images/img2.jpg" class="img-fluid" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="images/img3.jpg" class="ing-fluid"  alt="">
-                    </a>
-                    <a href="#">
+                    <a href="#" class="">
                         <img src="images/img4.jpg" class="img-fluid" alt="">
                     </a>
-                    <a href="">
+                    <a href="#" class="">
                         <img src="images/img5.jpg" class="img-fluid" alt="">
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
