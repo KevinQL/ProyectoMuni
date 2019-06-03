@@ -102,6 +102,19 @@
         }
 
         
+        /* cod-0912-INICIO Para controlar modal noticia - seginda imagen  */
+            #img-noticia{
+                width: 50%;
+            }
+            @media (max-width:768px){
+                #img-noticia{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        /* cod-0912-FIN Para controlar modal noticia - seginda imagen  */
+
+        
     </style>
 
 </head>
@@ -256,10 +269,47 @@
                     <div class="card p-1 my-1">
                         <img src="img/img1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">New title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">New title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                <a href="#" class="badge badge-warning" data-toggle="modal" data-target="#idnoticia1">
+                                    VER MAS
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
+                        <!-- Card noticia fin -->
+                        <!-- Modal noticia-->
+                        <div class="modal fade bd-example-modal-xl" id="idnoticia1" tabindex="-1" role="dialog" aria-labelledby="idnoticia1" aria-hidden="true">
+                                
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+
+                            <div class="modal-dialog modal-xl" role="document">
+                                <div class="modal-content border border-secondary bg-secondary">
+
+                                    <img src="img/img1.jpg" class="img-fluid" alt="">                                            
+                                    <div class="text-muted p-3">
+                                        <h4 class="text-center display-3 lead text-white">Titular Noticia</h4>
+                                        <p class="display-5 text-white lead font-weight-normal px-2">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            Earum corrupti voluptatibus exercitationem ad expedita assumenda recusandae, deserunt doloremque voluptatem! Ipsam pariatur vitae officia quod. Quia aspernatur vero maiores saepe provident laborum, esse porro quae consectetur repellat enim. Iste ex ratione placeat itaque ipsum? Deleniti ut nihil, est cupiditate neque quos adipisci esse ipsum provident at, mollitia laboriosam reiciendis similique voluptatum magnam officia veritatis porro tempore nam incidunt molestiae. Inventore similique laudantium laborum, rem debitis dicta aliquam quo dolore harum veniam hic dignissimos impedit dolores sint eius nisi ipsa, provident modi assumenda ullam facilis quae quisquam ratione repellendus. Culpa, aspernatur dolores?
+                                            <img src="img/img4.jpg" id="img-noticia" class="img-fluid border rounded-lg float-md-left mt-2 mr-2" alt="">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos magnam dolorum culpa cumque soluta voluptate veritatis nulla sunt mollitia corporis vero libero ipsa facere recusandae necessitatibus labore dignissimos exercitationem odio, maiores porro, repudiandae nemo similique aliquam doloremque. Dolore, voluptates in!
+                                        </p>                                            
+                                    </div>
+
+                                    <button class="btn btn-lg btn-warning m-4 lead" data-dismiss="modal">
+                                        Leido
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin modal noticia -->                        
+
+
                     </div>
 
                     <div class="card p-1 my-1">
