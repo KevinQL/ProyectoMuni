@@ -129,18 +129,34 @@
 
         /* cod-111-FIN presentacion con fondo de imagen */
 
+        /* cod-22-INICIO Stylizando Logo como lo quiere lenyn */
+            .logo-tipo-lenyn{
+                position:fixed;
+                height: 100px;
+                top:75px;
+                z-index:3000;
+            }
 
+        /* cod-22-FIN Stylizando Logo como lo quiere lenyn */        
         
+        /* INICIO Fondo Gradiente para el encabezado principal donde se ubica gobierno, tranparencia, logo*/
+        .bg-encabezado-tlg{            
+            background: linear-gradient(to bottom, white,#ffc107);            
+        }
+        /* FIN Fondo Gradiente para el encabezado principal donde se ubica gobierno, tranparencia, logo*/
+        
+
     </style>
 
 </head>
 <body>
     
-    <!--ENCABEZADO -->
-    <div class="bg-warning py-3">
+    <!--ENCABEZADO Transparencia, logo y gobierno regional -->
+    <div class="bg-encabezado-tlg py-3">
         <div class="container-fluid d-flex justify-content-between">            
             <div class="d-md-block d-none">
-                <img src="img/logo-andarapa.png" height="50px" alt="logo">
+                <!-- <img src="img/logo-andarapa.png" height="50px" alt="logo"> -->
+                <img src="img/logo-andarapa.png" class="logo-tipo-lenyn" height="50px" alt="logo">
             </div>
 
             <div class="">
@@ -156,7 +172,7 @@
         </div>
     </div>
     
-    <!--ENCABEZADO -->
+    <!--ENCABEZADO Redes y logo -->
     <div id="cabeza">
         <div class="encabezado p-2">
             <div class="">
@@ -177,7 +193,7 @@
         </div>
     </div>
 
-        <!-- SLIDER DINÁMICO -->
+    <!-- SLIDER DINÁMICO -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner container-fluid px-0 mx-0">        
             <!-- Insert to your webpage where you want to display the slider -->
@@ -213,7 +229,8 @@
             <!-- End of body section HTML codes -->       
         </div>
     </div>
-
+    
+    <!-- NAVEGACIÓN OPCIONES-->
     <div class="cotenedor-navegacion  sticky-top" style="background: royalblue;">
         
         <!-- NAVEGACIÓN-->
@@ -433,6 +450,7 @@
     </section>
     <!-- Fin corrusel option two links external -->
 
+    <!-- carrusel links externos con css Option 1-->
     <div class="bg-light">
         <div class="container py-4 ">
             <!-- <div class="text-center p-4 text-muted">
@@ -582,7 +600,7 @@
         </div>
     </div>
 
-
+<!-- Footer Mapa, redes S. CVontáctenos -->
 <section class="bg-light py-3" >
     <div class="container">
         <div class="row pt-3">
@@ -650,17 +668,14 @@
     </div>
 </section>    
 
-    <footer class="bg-dark">
-        <div class="container py-4">
-            <span> &copy Rezuam</span>
-        </div>
-    </footer>
+<!-- Footer Pie de página Copy Rezuam -->
+<footer class="bg-dark">
+    <div class="container py-4">
+        <span> &copy Rezuam</span>
+    </div>
+</footer>
 
 
-
-
-
-  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
