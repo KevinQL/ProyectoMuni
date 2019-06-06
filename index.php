@@ -199,7 +199,7 @@
                     <a href="#" class="d-block">Doc.novedades three.pdf</a>
                 </div>
                 <div class="col-lg-5 px-1 bg-light">                    
-                    <h4 class="text-center">Sección Noticias</h4>
+                    <h4 class="text-center">Noticias</h4>
 
                     <?php
                         require_once('Conexion.php');
@@ -212,8 +212,7 @@
                         
                         foreach($arr_notice as $noticia){
                             // echo $noticia['titulo_noti'];
-                    ?>
-                    <h4 class="text-center">Noticias</h4>
+                    ?>                    
                     <div class="card p-1 my-1">
                         <img src="img/img1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
