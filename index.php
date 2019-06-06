@@ -135,7 +135,7 @@
                <div class="collapse navbar-collapse" id="menu">
                    <ul class="navbar-nav">
      
-                       <li class="nav-item"><a href="index.html" class="nav-link bton">INICIO</a></li>
+                       <li class="nav-item"><a href="#" class="nav-link bton">INICIO</a></li>
                        
                        <li class="nav-item dropdown">
                            <a href="#" class="nav-link dropdown-toggle bton" data-toggle="dropdown">
@@ -199,15 +199,31 @@
                     <a href="#" class="d-block">Doc.novedades two.pdf</a>
                     <a href="#" class="d-block">Doc.novedades three.pdf</a>
                 </div>
-
                 <div class="col-lg-5 px-1 bg-light">                    
-                    <h4 class="text-center">News section</h4>
+                    <h4 class="text-center">Sección Noticias</h4>
+
+                    <?php
+                        require_once('Conexion.php');
+
+                        $result = $mysqli->query("SELECT * FROM noticias");
+                        $arr_notice = [];
+                        while($reg_notice = $result->fetch_assoc()){
+                            $arr_notice[] = $reg_notice;
+                        }
+                        
+                        foreach($arr_notice as $noticia){
+                            // echo $noticia['titulo_noti'];
+                    ?>
                     <div class="card p-1 my-1">
                         <img src="img/img1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">New title</h5>
+                            <h5 class="card-title">                                
+                                <?php echo $noticia['titulo_noti'];?>
+                            </h5>
                             <p class="card-text">
-                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                <?php
+                                    echo $noticia['introduccion_noti'];
+                                ?>
                                 <a href="#" class="badge badge-warning" data-toggle="modal" data-target="#idnoticia1">
                                     VER MAS
                                 </a>
@@ -227,12 +243,17 @@
 
                                     <img src="img/img1.jpg" class="img-fluid" alt="">                                            
                                     <div class="text-muted p-3">
-                                        <h4 class="text-center display-3 lead text-white">Titular Noticia</h4>
+                                        <h4 class="text-center display-3 lead text-white">
+                                            <?php
+                                                echo $noticia['titulo_noti'];
+                                            ?>
+                                        </h4>
                                         <p class="display-5 text-white lead font-weight-normal px-2">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                            Earum corrupti voluptatibus exercitationem ad expedita assumenda recusandae, deserunt doloremque voluptatem! Ipsam pariatur vitae officia quod. Quia aspernatur vero maiores saepe provident laborum, esse porro quae consectetur repellat enim. Iste ex ratione placeat itaque ipsum? Deleniti ut nihil, est cupiditate neque quos adipisci esse ipsum provident at, mollitia laboriosam reiciendis similique voluptatum magnam officia veritatis porro tempore nam incidunt molestiae. Inventore similique laudantium laborum, rem debitis dicta aliquam quo dolore harum veniam hic dignissimos impedit dolores sint eius nisi ipsa, provident modi assumenda ullam facilis quae quisquam ratione repellendus. Culpa, aspernatur dolores?
-                                            <img src="img/img4.jpg" id="img-noticia" class="img-fluid border rounded-lg float-md-left mt-2 mr-2" alt="">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos magnam dolorum culpa cumque soluta voluptate veritatis nulla sunt mollitia corporis vero libero ipsa facere recusandae necessitatibus labore dignissimos exercitationem odio, maiores porro, repudiandae nemo similique aliquam doloremque. Dolore, voluptates in!
+                                            <?php
+                                                echo $noticia['contenido'];
+                                            ?>
+                                            <!-- <img src="img/img4.jpg" id="img-noticia" class="img-fluid border rounded-lg float-md-left mt-2 mr-2" alt="">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos magnam dolorum culpa cumque soluta voluptate veritatis nulla sunt mollitia corporis vero libero ipsa facere recusandae necessitatibus labore dignissimos exercitationem odio, maiores porro, repudiandae nemo similique aliquam doloremque. Dolore, voluptates in! -->
                                         </p>                                            
                                     </div>
 
@@ -245,8 +266,12 @@
                         </div>
                         <!-- Fin modal noticia -->                        
 
-
                     </div>
+                    <?php
+                        }
+                        $result->free();
+                        $mysqli->close();
+                    ?>
 
                     <div class="card p-1 my-1">
                         <img src="img/img2.jpg" class="card-img-top" alt="...">
