@@ -82,11 +82,19 @@ body, html {
 /* cod-111-INICIO presentacion con fondo de imagen */
 
     .inicio-presentacion{
-        background: url("../img/img1.jpg") no-repeat fixed center;          
+        background: url("../img/pacucha.jpg") no-repeat fixed center;          
         background-size: cover;
         height: 100%;
         width:100%;
     }
+    .inicio-organizacion{
+        background: url("../img/organigrama.jpg") no-repeat fixed center;          
+        background-size: cover;
+        height: 100%;
+        width:100%;
+        color: black;
+    }
+
     .presentacion-opacity{
         background-color: rgba(171, 254, 45, .3);
     }
@@ -163,7 +171,11 @@ body, html {
 /* FIN TURISMO */
 /* --------------------------------------------- */
 
-/* */
+/* Color de iconos*/
+.color-icono{
+    color: rgb(60, 99, 2);
+    -webkit-text-stroke: 1px rgba(255, 255, 0, 0.637);
+}
 
 
 /* --------------------------------------------- */
