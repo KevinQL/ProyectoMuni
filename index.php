@@ -181,7 +181,7 @@
     <section class="inicio-presentacion ">
         <div class="presentacion-opacity p-4">
             <div class="container text-center lead text-white">
-                <h3>Municipalidad de Andarapa</h3>
+                <h3>Municipalidad Distrital de Andarapa</h3>
                 <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sunt dolorum nam optio harum odit et eum doloribus earum, debitis, qui itaque aliquid laboriosam! Praesentium culpa officia sed consequatur asperiores.</p>
             </div>
         </div>
@@ -192,8 +192,7 @@
             <div class="row">
 
                 <div class="col-lg-3 bg-light">
-                    <h4 class="text-center">Novelty section</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatibus amet quaerat nihil aliquid, enim optio beatae, rem hic ad animi. Ab aspernatur enim reprehenderit nulla culpa, laborum vel quis?</p>
+                    <h4 class="text-center">Novedades</h4>
                     <a href="#" class="d-block">Doc.novedades.pdf</a>
                     <a href="#" class="d-block">Doc.novedades one.pdf</a>
                     <a href="#" class="d-block">Doc.novedades two.pdf</a>
@@ -214,6 +213,7 @@
                         foreach($arr_notice as $noticia){
                             // echo $noticia['titulo_noti'];
                     ?>
+                    <h4 class="text-center">Noticias</h4>
                     <div class="card p-1 my-1">
                         <img src="img/img1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -294,10 +294,10 @@
                 </div>
 
                 <div class="col-lg-4 text-center">
-                    <h4 class="text-center">Social networks</h4>
+                    <h4 class="text-center">Redes Sociales</h4>
                     <iframe width="300" height="500" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRezuam-600773577055743%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                     <h4>Youtube</h4>                    
-                    <iframe width="100%" height="280" src="https://www.youtube.com/embed/-tQSTZiWyag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="280" src="https://www.youtube.com/embed/8OUVCDw2PG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -308,8 +308,7 @@
         <div class="container py-2">
 
             <div class="text-center p-4 text-muted">
-                <h3 class="">INSTITUCIONES EXTERNAS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique assumenda aliquid, eligendi aspernatur minus odio?</p>
+                <h3 class="">SERVICIOS</h3>
             </div>
 
             <div id="carousel-links" class="carousel slide" data-ride="carousel">
@@ -319,7 +318,7 @@
                         <img src="img/img3.jpg" class="d-block m-auto" width="300px" height="120px" alt="...">
                     </a>
                     <div class="text-center py-2">
-                        <h3>Lorem, ipsum.</h3>
+                        <h3>Servicio 1</h3>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -328,7 +327,7 @@
                         <img src="img/img3.jpg" class="d-block m-auto" width="300px" height="120px" alt="...">
                     </a>
                     <div class="text-center py-2">
-                        <h3>Lorem, ipsum.</h3>
+                        <h3>Servicio 2</h3>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -337,7 +336,7 @@
                         <img src="img/img3.jpg" class="d-block m-auto" width="300px" height="120px" alt="...">
                     </a>
                     <div class="text-center py-2">
-                        <h3>Lorem, ipsum.</h3>
+                        <h3>Servicio 3</h3>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -373,142 +372,117 @@
                 <h3 class="">INSTITUCIONES EXTERNAS</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique assumenda aliquid, eligendi aspernatur minus odio?</p>
             </div> -->
+            <div class="text-center p-4 text-muted">
+                <h3 class="">ENLACES EXTERNOS</h3>
+            </div>
             <div class="content-slider-iex">
                 <div class="slider-ie">
                     <!-- copia 2 slider -->
                     <div class="row py-2 m-0">
 
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img1.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.muniandahuaylas.gob.pe/" class="">
+                                <img src="img/enlaces externos/logo-Municipalidad-Andahuaylas.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://peru.info/es-pe/" class="">
+                                <img src="img/enlaces externos/peru_marca.jpg" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img3.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="http://www.regionapurimac.gob.pe/" class="">
+                                <img src="img/enlaces externos/gr-apurimac.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img4.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://portal.osce.gob.pe/osce/content/accesos-al-seace" class="">
+                                <img src="img/enlaces externos/LOGO OSCE.png" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www2.seace.gob.pe/" class="">
+                                <img src="img/enlaces externos/LOGO-SEACE-WEBTORATA.jpg" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="http://www.minagri.gob.pe/portal/inicio" class="">
+                                <img src="img/enlaces externos/LogoMinagri.png" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.mef.gob.pe/es/" class="">
+                                <img src="img/enlaces externos/MEf.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.pronabec.gob.pe/beca18/" class="">
+                                <img src="img/enlaces externos/logo_beca18.png" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.gob.pe/pcm" class="">
+                                <img src="img/enlaces externos/LOGO_PCM.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="http://www.sunat.gob.pe/" class="">
+                                <img src="img/enlaces externos/sunat.jpg" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
-                        <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
-                            </a>
-                        </div>
-                        <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
-                            </a>                        
-                        </div>                                                   
-                        <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
-                            </a>                        
-                        </div> 
+                         
                         <!-- reepeat img -->
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img1.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.muniandahuaylas.gob.pe/" class="">
+                                <img src="img/enlaces externos/logo-Municipalidad-Andahuaylas.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://peru.info/es-pe/" class="">
+                                <img src="img/enlaces externos/peru_marca.jpg" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img3.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="http://www.regionapurimac.gob.pe/" class="">
+                                <img src="img/enlaces externos/gr-apurimac.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img4.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://portal.osce.gob.pe/osce/content/accesos-al-seace" class="">
+                                <img src="img/enlaces externos/LOGO OSCE.png" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www2.seace.gob.pe/" class="">
+                                <img src="img/enlaces externos/LOGO-SEACE-WEBTORATA.jpg" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="http://www.minagri.gob.pe/portal/inicio" class="">
+                                <img src="img/enlaces externos/LogoMinagri.png" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.mef.gob.pe/es/" class="">
+                                <img src="img/enlaces externos/MEf.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.pronabec.gob.pe/beca18/" class="">
+                                <img src="img/enlaces externos/logo_beca18.png" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="https://www.gob.pe/pcm" class="">
+                                <img src="img/enlaces externos/LOGO_PCM.png" class="img-fluid" style="width: 100%" alt="">
                             </a>
                         </div>
                         <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+                            <a href="http://www.sunat.gob.pe/" class="">
+                                <img src="img/enlaces externos/sunat.jpg" class="img-fluid" style="width: 100%" alt="">
                             </a>                        
                         </div>
-                        <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
-                            </a>
-                        </div>
-                        <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
-                            </a>                        
-                        </div>                                                   
-                        <div class="col-img-ie pl-1">
-                            <a href="#" class="">
-                                <img src="img/img2.jpg" class="img-fluid" style="width: 100%" alt="">
-                            </a>                        
-                        </div>                         
+                                                
                         
                     </div>            
                 </div>
@@ -528,7 +502,7 @@
                 </span>                    
             </div>
             <div class="col-lg-3  lead text-center text-md-left">
-                <h4 class="display-5">Contáctanos</h4>
+                <h4 class="display-5">Siguenos</h4>
                 <ul class="list-unstyled">
                     <li class="py-1">                        
                         <a href="#" class="text-decoration-none">
@@ -545,28 +519,20 @@
                     <li class="py-1">                        
                         <a href="#" class="text-decoration-none">
                             <i class="mx-1 fab fa-instagram "></i>
-                            <span class="text-primary">Instagra</span>m
+                            <span class="text-primary">Instagram</span>
                         </a>
                     </li>
                 </ul>    
             </div>   
             <div class="col-lg-3  lead text-center text-md-left">
-                <h4 class="display-5">Dirección</h4>
+                <h4 class="display-5">Contactanos</h4>
                 <ul class="list-unstyled">
                     <li class="py-1">
-                        <i class="ml-2 fas fa-user-circle"></i> Lorem, ipsum dolor. 
+                        <i class="ml-2 fas fa-user-circle"></i> Imágen Institucional. 
                         <br>
-                        <i class="ml-2 fas fa-phone-square"></i> 000 - 000 - 000
+                        <i class="ml-2 fas fa-user-circle"></i> Oficina Permanente. 
                         <br>
-                        <a href="#"><i class="mx-2 fab fa-facebook-f text-secondary "></i></a>
-                        <a href="#"><i class="mx-2 fab fa-twitter text-secondary "></i></a>
-                        <a href="#"><i class="mx-2 fab fa-instagram text-secondary "></i></a>
-
-                    </li>
-                    <li class="py-1">
-                        <i class="ml-2 fas fa-user-circle"></i>  Lorem, ipsum dolor.
-                        <br>
-                        <i class="ml-2 fas fa-phone-square"></i> 000 - 000 - 000
+                        <i class="ml-2 fas fa-phone-square"></i> 999 - 123 - 456
                         <br>
                         <a href="#"><i class="mx-2 fab fa-facebook-f text-secondary "></i></a>
                         <a href="#"><i class="mx-2 fab fa-twitter text-secondary "></i></a>
@@ -574,15 +540,17 @@
 
                     </li>
                     <li class="py-1">
-                        <i class="ml-2 fas fa-user-circle"></i> Lorem, ipsum dolor.
+                        <i class="ml-2 fas fa-user-circle"></i>  Muni Andarapa.
                         <br>
-                        <i class="ml-2 fas fa-phone-square"></i> 000 - 000 - 000
+                        <i class="ml-2 fas fa-user-circle"></i> Av. 24 de Junio-Andarpa 
+                        <br>
+                        <i class="ml-2 fas fa-phone-square"></i> 912 - 345 - 789
                         <br>
                         <a href="#"><i class="mx-2 fab fa-facebook-f text-secondary "></i></a>
                         <a href="#"><i class="mx-2 fab fa-twitter text-secondary "></i></a>
                         <a href="#"><i class="mx-2 fab fa-instagram text-secondary "></i></a>
 
-                    </li>
+                    
                 </ul>
             </div>
             
@@ -591,7 +559,7 @@
 </section>    
 
 <!-- Footer Pie de página Copy Rezuam -->
-<footer class="bg-dark py-3">
+<footer class="bg-dark py-1">
     <div class="container">        
         <div class="p-3 row text-center text-white text-monospace">
             <div class="col-md-9 text-md-left">
