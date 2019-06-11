@@ -26,53 +26,7 @@
     <div class="cotenedor-navegacion  sticky-top" style="background: royalblue;">
         
         <!-- NAVEGACIÓN-->         
-        <nav class="navbar navbar-expand-md navbar-light sticky-top cabeza2">
-            <div class="contiene">
-                <div>
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                        <span class="navbar-toggler-icon "></span>
-                    </button>
-                </div>
-               
-               
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav">
-     
-                        <li class="nav-item"><a href="index.html" class="nav-link bton">INICIO</a></li>
-                       
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle bton" data-toggle="dropdown">
-                                   MUNICIPIO
-                            </a>
-                            <div class="dropdown-menu lista-menu">
-                                <a href="municipio.html#alcalde-regidores" class="dropdown-item lista">Alcalde y regidores</a>
-                                <a href="municipio.html#mision-vision" class="dropdown-item lista">Mision vision</a>
-                                <a href="municipio.html#organigrama" class="dropdown-item lista">Organigramas</a>
-                                <a href="municipio.html#section-plan" class="dropdown-item lista">Plan de desarrollo</a>
-                            </div>
-                        </li>
-                       
-                        <li class="nav-item"><a href="noticias.html" class="nav-link bton">NOTICIAS</a></li>
-                       
-                        <li class="nav-item muni-text-li"><span class="nav-link bton btn-img text-center align-middle muni-text">MUNICIPALIDAD DISTRITAL DE PACUCHA</span></li>
-           
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link bton dropdown-toggle" data-toggle="dropdown">
-                               OBRAS Y PROYECTOS
-                            </a>
-                            <div class="dropdown-menu lista-menu">
-                                <a href="proyecto.html" class="dropdown-item lista">Ejecutados</a>
-                                <a href="proyecto.html" class="dropdown-item lista">En proceso</a>
-                                <a href="proyecto.html" class="dropdown-item lista">Proyecto</a>
-                            </div>
-                        </li>
-                       
-                        <li class="nav-item"><a href="turismo.html" class="nav-link bton">TURISMO</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link bton">CONTACTOS</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include('navegar.php'); ?>
     </div>
 
     <!-- SECCIÓN SALUDO ALCALDE  -->
@@ -89,9 +43,9 @@
 
             <div class="text-center">
                 <div class="container">
-                    <div class="row py-3">
-                        <div class="col-md-4">
-                            <a href="#" data-toggle="modal" data-target="#modal-regidor1">
+                    <div class="row py-1">
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico1">
                                 <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
@@ -101,7 +55,7 @@
                             </div>
 
                             <!-- Modal turismo vista-->
-                            <div class="modal fade" id="modal-regidor1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <div class="modal fade" id="modal-turistico1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
@@ -115,7 +69,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.html?turimos=provincia1" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo.php?turismos=provincia1" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -126,150 +80,201 @@
                             </div>
 
                         </div>
-                        <div class="col-md-4">
-                            <a href="#" data-toggle="modal" data-target="#modal-regidor1">
+
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico2">
                                 <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
-                            <!-- Datos básicos regidor -->
+                            <!-- Datos Lugar turístico -->
                             <div>
                                 <h4>Lorem, ipsum dolor.</h4>                                
                                 <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
                             </div>
 
-                            <!-- Modal regidor-->
-                            <div class="modal fade" id="modal-regidor1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico2" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
-                                        <div class="col-md-4">
-                                            <img src="https://lorempixel.com/250/500" class="img-fluid m-auto rounded-pill h-100 w-100" alt="">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
                                         </div>
-                                        <div class="col-md-8 pt-5">
-                                            <h5>Saludo Regidor</h5>
-                                            <small>Name Regidor </small>
-                                            <p>Saludo alcalde... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.</p>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 2</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia2" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
                                         </div>
                                     </div>                                       
                                 </div>                                
                             </div>
+
                         </div>
-                        <div class="col-md-4">
-                            <a href="#" data-toggle="modal" data-target="#modal-regidor1">
+                        
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico3">
                                 <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
-                            <!-- Datos básicos regidor -->
+                            <!-- Datos Lugar turístico -->
                             <div>
                                 <h4>Lorem, ipsum dolor.</h4>                                
                                 <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
                             </div>
 
-                            <!-- Modal regidor-->
-                            <div class="modal fade" id="modal-regidor1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico3" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
-                                        <div class="col-md-4">
-                                            <img src="https://lorempixel.com/250/500" class="img-fluid m-auto rounded-pill h-100 w-100" alt="">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
                                         </div>
-                                        <div class="col-md-8 pt-5">
-                                            <h5>Saludo Regidor</h5>
-                                            <small>Name Regidor </small>
-                                            <p>Saludo alcalde... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.</p>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 3</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia3" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
                                         </div>
                                     </div>                                       
                                 </div>                                
                             </div>
-                        </div>
-                    </div>
 
-                    <div class="row py-3">
-                        <div class="col-md-4">
-                            <a href="#" data-toggle="modal" data-target="#modal-regidor1">
+                        </div>
+
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico4">
                                 <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
-                            <!-- Datos básicos regidor -->
+                            <!-- Datos Lugar turístico -->
                             <div>
                                 <h4>Lorem, ipsum dolor.</h4>                                
                                 <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
                             </div>
 
-                            <!-- Modal regidor-->
-                            <div class="modal fade" id="modal-regidor1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico4" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
-                                        <div class="col-md-4">
-                                            <img src="https://lorempixel.com/250/500" class="img-fluid m-auto rounded-pill h-100 w-100" alt="">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
                                         </div>
-                                        <div class="col-md-8 pt-5">
-                                            <h5>Saludo Regidor</h5>
-                                            <small>Name Regidor </small>
-                                            <p>Saludo alcalde... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.</p>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 4</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia4" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
                                         </div>
                                     </div>                                       
                                 </div>                                
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" data-toggle="modal" data-target="#modal-regidor1">
+
+                        </div>  
+
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico5">
                                 <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
-                            <!-- Datos básicos regidor -->
+                            <!-- Datos Lugar turístico -->
                             <div>
                                 <h4>Lorem, ipsum dolor.</h4>                                
                                 <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
                             </div>
 
-                            <!-- Modal regidor-->
-                            <div class="modal fade" id="modal-regidor1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico5" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
-                                        <div class="col-md-4">
-                                            <img src="https://lorempixel.com/250/500" class="img-fluid m-auto rounded-pill h-100 w-100" alt="">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
                                         </div>
-                                        <div class="col-md-8 pt-5">
-                                            <h5>Saludo Regidor</h5>
-                                            <small>Name Regidor </small>
-                                            <p>Saludo alcalde... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.</p>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 5</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia5" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
                                         </div>
                                     </div>                                       
                                 </div>                                
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="#" data-toggle="modal" data-target="#modal-regidor1">
+
+                        </div>  
+
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico6">
                                 <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
-                            <!-- Datos básicos regidor -->
+                            <!-- Datos Lugar turístico -->
                             <div>
                                 <h4>Lorem, ipsum dolor.</h4>                                
                                 <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
                             </div>
 
-                            <!-- Modal regidor-->
-                            <div class="modal fade" id="modal-regidor1" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico6" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
-                                        <div class="col-md-4">
-                                            <img src="https://lorempixel.com/250/500" class="img-fluid m-auto rounded-pill h-100 w-100" alt="">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
                                         </div>
-                                        <div class="col-md-8 pt-5">
-                                            <h5>Saludo Regidor</h5>
-                                            <small>Name Regidor </small>
-                                            <p>Saludo alcalde... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.</p>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 6</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
                                         </div>
                                     </div>                                       
                                 </div>                                
                             </div>
-                        </div>
+
+                        </div>  
+
                     </div>
 
                 </div>                
             </div>
         </div>
     </section>
+
+    <!-- Footer Pie de página Copy Rezuam -->
+    <?php include('pie-page.php'); ?>
 
     <!-- jsBootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

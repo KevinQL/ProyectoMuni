@@ -122,63 +122,13 @@
         
         <!-- NAVEGACIÓN-->
      
-     
-         <nav class="navbar navbar-expand-md navbar-light sticky-top cabeza2">
-           <div class="contiene">
-               <div>
-                   <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                       <span class="navbar-toggler-icon "></span>
-                   </button>
-               </div>
-               
-               
-               <div class="collapse navbar-collapse" id="menu">
-                   <ul class="navbar-nav">
-     
-                       <li class="nav-item"><a href="#" class="nav-link bton">INICIO</a></li>
-                       
-                       <li class="nav-item dropdown">
-                           <a href="#" class="nav-link dropdown-toggle bton" data-toggle="dropdown">
-                                   MUNICIPIO
-                           </a>
-                           <div class="dropdown-menu lista-menu">
-                                <a href="municipio.html#alcalde-regidores" class="dropdown-item lista">Alcalde y regidores</a>
-                                <a href="municipio.html#mision-vision" class="dropdown-item lista">Mision vision</a>
-                                <a href="municipio.html#organigrama" class="dropdown-item lista">Organigramas</a>
-                                <a href="municipio.html#section-plan" class="dropdown-item lista">Plan de desarrollo</a>
-                           </div>
-                       </li>
-                       
-                       <li class="nav-item"><a href="noticias.html" class="nav-link bton">NOTICIAS</a></li>
-                       
-                       <li class="nav-item muni-text-li">
-                            <span class="nav-link bton btn-img text-center align-middle muni-text">
-                                MUNICIPALIDAD DISTRITAL DE ANDARAPA
-                            </span>
-                        </li>
-           
-                       <li class="nav-item dropdown">
-                           <a href="#" class="nav-link bton dropdown-toggle" data-toggle="dropdown">
-                               OBRAS Y PROYECTOS
-                           </a>
-                           <div class="dropdown-menu lista-menu">
-                                   <a href="proyecto.html#ejecutados" class="dropdown-item lista">Ejecutados</a>
-                                   <a href="proyecto.html#en-proceso" class="dropdown-item lista">En proceso</a>
-                                   <a href="proyecto.html#proyectadas" class="dropdown-item lista">Proyectadas</a>
-                           </div>
-                       </li>
-                       
-                       <li class="nav-item"><a href="turismo.html" class="nav-link bton">TURISMO</a></li>
-                       <li class="nav-item"><a href="#" class="nav-link bton">CONTACTOS</a></li>
-                   </ul>
-               </div>
-           </div>
-       </nav>
+        <?php include("navegar.php"); ?>     
+
     </div>
 
     <!-- CUERPO -->
 
-    <section class="inicio-presentacion ">
+    <section class="inicio-presentacion" id="crp-general">
         <div class="presentacion-opacity p-4">
             <div class="container text-center lead text-white">
                 <h3>Municipalidad Distrital de Andarapa</h3>
@@ -203,8 +153,12 @@
 
                     <?php
                         require_once('Conexion.php');
-
-                        $result = $mysqli->query("SELECT * FROM noticias");
+                        // echo (!empty($_GET['ntc']))."LOALA ".($_GET['ntc'] >= 0); //Prueba valor boolean 
+                        $ntc = (!empty($_GET['ntc']) && ($_GET['ntc'] >= 0))?$_GET['ntc'] : 0 ;
+                        $not_init = ($ntc != 0)? $ntc*3 : 0;
+                        // echo $not_init;
+                        // echo "valor ntc ".$ntc; //Prueba viendo valor del ntc 
+                        $result = $mysqli->query("SELECT * FROM noticias LIMIT $not_init, 3");
                         $arr_notice = [];
                         while($reg_notice = $result->fetch_assoc()){
                             $arr_notice[] = $reg_notice;
@@ -272,7 +226,7 @@
                         $mysqli->close();
                     ?>
 
-                    <div class="card p-1 my-1">
+                    <!-- <div class="card p-1 my-1">
                         <img src="img/img2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">New title</h5>
@@ -288,7 +242,28 @@
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
-                    </div>                    
+                    </div>       -->
+                    
+<nav aria-label="Page navigation example" class="pt-2">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="index.php?ntc=<?php 
+            $prev = ($ntc > 0)? $ntc-1 : 0 ;
+            echo $prev; 
+        ?>#crp-general" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item <?php echo ($ntc == 0)?"active":""; ?>"><a class="page-link" href="index.php?ntc=0#crp-general">1</a></li>
+    <li class="page-item <?php echo ($ntc == 1)?"active":""; ?>"><a class="page-link" href="index.php?ntc=1#crp-general">2</a></li>
+    <li class="page-item <?php echo ($ntc == 2)?"active":""; ?>"><a class="page-link" href="index.php?ntc=2#crp-general">3</a></li>
+    <li class="page-item <?php echo ($ntc >= 3)?"active":""; ?>">
+      <a class="page-link" href="index.php?ntc=<?php echo $ntc+1; ?>#crp-general" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>                    
 
                 </div>
 
@@ -558,21 +533,7 @@
 </section>    
 
 <!-- Footer Pie de página Copy Rezuam -->
-<footer class="bg-dark py-1">
-    <div class="container">        
-        <div class="p-3 row text-center text-white text-monospace">
-            <div class="col-md-9 text-md-left">
-                &copy; Municipalidad de Andarapa. Todos los derechos reservados. 
-                </br>Desarrollado por&nbsp;<a class="text-decoration-none" href="http://rezuam.com/" target="_blank">Rezuam Tech</a>
-            </div>
-            <div class="col-md-3 text-md-right">
-                <a class="text-decoration-none text-white" href="https://www.facebook.com/Rezuam-Tech-600773577055743/" target="_blank"><i class="mx-2 fab fa-facebook-f"></i></a>
-                <a class="text-decoration-none text-white" href="#" target="_blank"><i class="mx-2 fab fa-twitter"></i></a>
-                <a class="text-decoration-none text-white" href="#" target="_blank"><i class="mx-2 fab fa-instagram"></i></a>                        
-            </div>
-        </div>    
-    </div>
-</footer>
+<?php include('pie-page.php'); ?>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -27,53 +27,8 @@
     <div class="cotenedor-navegacion  sticky-top" style="background: royalblue;">
         
         <!-- NAVEGACIÓN-->         
-        <nav class="navbar navbar-expand-md navbar-light sticky-top cabeza2">
-            <div class="contiene">
-                <div>
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                        <span class="navbar-toggler-icon "></span>
-                    </button>
-                </div>
-               
-               
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav">
-     
-                        <li class="nav-item"><a href="index.html" class="nav-link bton">INICIO</a></li>
-                       
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle bton" data-toggle="dropdown">
-                                   MUNICIPIO
-                            </a>
-                            <div class="dropdown-menu lista-menu">
-                                <a href="municipio.html#alcalde-regidores" class="dropdown-item lista">Alcalde y regidores</a>
-                                <a href="municipio.html#mision-vision" class="dropdown-item lista">Mision vision</a>
-                                <a href="municipio.html#organigrama" class="dropdown-item lista">Organigramas</a>
-                                <a href="municipio.html#section-plan" class="dropdown-item lista">Plan de desarrollo</a>
-                            </div>
-                        </li>
-                       
-                        <li class="nav-item"><a href="noticias.html" class="nav-link bton">NOTICIAS</a></li>
-                       
-                        <li class="nav-item muni-text-li"><span class="nav-link bton btn-img text-center align-middle muni-text">MUNICIPALIDAD DISTRITAL DE PACUCHA</span></li>
-           
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link bton dropdown-toggle" data-toggle="dropdown">
-                               OBRAS Y PROYECTOS
-                            </a>
-                            <div class="dropdown-menu lista-menu">
-                                <a href="proyecto.html" class="dropdown-item lista">Ejecutados</a>
-                                <a href="proyecto.html" class="dropdown-item lista">En proceso</a>
-                                <a href="proyecto.html" class="dropdown-item lista">Proyecto</a>
-                            </div>
-                        </li>
-                       
-                        <li class="nav-item"><a href="turismo.html" class="nav-link bton">TURISMO</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link bton">CONTACTOS</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include('navegar.php'); ?>
+
     </div>
 
     <!-- SECCIÓN SALUDO ALCALDE  -->
@@ -295,8 +250,8 @@
 
     <!-- SECCIÓN DE MISIÓN VISIÓN -->
     <section class="inicio-organizacion" id="mision-vision">
-        <div class="opacidad-mv">
-            <div class="container text-center py-4 lead">
+        <div class="opacidad-org">
+            <div class="container text-center py-4 lead text-white">
                 <h4>Misión y Visión</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident corrupti quos dolorem voluptates veniam vel voluptas veritatis?</p>
             </div>
@@ -304,8 +259,8 @@
         </section>
 
     <section class="bg-light inicio-organizacion">
-        <div class="opacidad-mv">
-            <div class="container text-center py-4 lead">
+        <div class="opacidad-org">
+            <div class="container text-center py-4 lead text-white">
                 <div class="row mt-3">
                     <div class="col-md-4">
                     </div>
@@ -324,9 +279,9 @@
 
 
     <section class="bg-light inicio-organizacion">
-        <div class="opacidad-mv">
+        <div class="opacidad-org">
 
-            <div class="container text-center py-4 lead">
+            <div class="container text-center py-4 lead text-white">
                 <div class="row mt-3">
                     <div class="col-md-8">
                         <h3>VISIÓN</h3>
@@ -344,8 +299,8 @@
 
     <!-- Sección organigrama -->
     <section class="inicio-organizacion" id="organigrama">
-        <div class="opacidad-mv">
-            <div class="container py-4 text-center ">
+        <div class="opacidad-org">
+            <div class="container py-4 text-center text-white lead">
                 <h3>Organigrama</h3>
                 <i class="fas fa-sitemap fa-4x color-icono"></i>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim illum nesciunt aperiam veniam, error ab, fugit veritatis sed quas, illo eum culpa porro quae atque?</p>
@@ -354,7 +309,7 @@
     </section>
 
     <section class="inicio-organizacion">
-        <div class="opacidad-mv">
+        <div class="opacidad-org">
 
             <div class="container p-4 text-center">
                 <img src="img/organigrama1.png" class="img-fluid border-secondary rounded-sm" alt="">
@@ -376,6 +331,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facere. Et, reiciendis ducimus accusamus beatae quas illum, itaque minus eum quia modi blanditiis reprehenderit alias est velit eius. Laudantium quibusdam placeat recusandae alias corrupti ad nesciunt tempora repellendus magnam iure.</p>
         </div>
     </section>
+
+    <!-- Footer Pie de página Copy Rezuam -->
+    <?php include('pie-page.php'); ?>
+
     <!-- jsBootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

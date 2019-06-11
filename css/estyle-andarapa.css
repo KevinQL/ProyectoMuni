@@ -141,7 +141,9 @@ body, html {
 /* --------------------------------------------- */
 
 /* MUNICIPIO */
-
+.opacidad-org{
+    background: rgba(127, 73, 253, 0.6);
+}
 /* FIN MUNICIPIO */
 /* --------------------------------------------- */
 
@@ -163,6 +165,7 @@ body, html {
 /* PROYECTO */
 
 .opacidad-mv{
+    /* background:rgba(253, 181, 73, 0.5); */
     background:rgba(253, 181, 73, 0.5);
 }
 /* FIN PROYECTO */
