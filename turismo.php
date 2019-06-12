@@ -33,7 +33,7 @@
     <section class="bg-light" id="alcalde-regidores">
         <div class="container py-4 text-center lead text-muted">
             <h3>Turismo</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, amet.</p>
+            <p>Andarapa tierra agraria y gandera con los mejores espacios turisticos.</p>
         </div>
     </section>
 
@@ -46,12 +46,12 @@
                     <div class="row py-1">
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico1">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/chanta_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
-                                <h4>Lorem, ipsum dolor.</h4>                                
-                                <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
+                                <h4>CHANTA UMACA</h4>                                
+                                <span>Lugar de esparcipiento agricola y variedad en pisos ecológicos.</span>
                             </div>
 
                             <!-- Modal turismo vista-->
@@ -60,7 +60,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/chanta_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico</h5>
@@ -83,12 +83,12 @@
 
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico2">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/illahuasi_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
-                                <h4>Lorem, ipsum dolor.</h4>                                
-                                <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
+                                <h4>ILLAHUASI</h4>                                
+                                <span>Espacio de descanso placentero para aquellos viajeros de rutas largas.</span>
                             </div>
 
                             <!-- Modal turismo vista-->
@@ -97,7 +97,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/illahuasi_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100 " alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 2</h5>
@@ -120,12 +120,12 @@
                         
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico3">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/puyhua_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
-                                <h4>Lorem, ipsum dolor.</h4>                                
-                                <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
+                                <h4>PUYHUALLA</h4>                                
+                                <span>Cumbre de andarapa.</span>
                             </div>
 
                             <!-- Modal turismo vista-->
@@ -134,7 +134,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/puyhua_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 3</h5>
@@ -157,12 +157,12 @@
 
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico4">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/huancas_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
-                                <h4>Lorem, ipsum dolor.</h4>                                
-                                <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
+                                <h4>HUANCAS</h4>                                
+                                <span>Espiga de oro en la provinvia.</span>
                             </div>
 
                             <!-- Modal turismo vista-->
@@ -171,7 +171,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/huancas_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 4</h5>
@@ -194,12 +194,12 @@
 
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico5">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/toxa_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
-                                <h4>Lorem, ipsum dolor.</h4>                                
-                                <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
+                                <h4>SAN MARTÍN DE TOXAMA</h4>                                
+                                <span>Zona agricola con productos de quebrada.</span>
                             </div>
 
                             <!-- Modal turismo vista-->
@@ -208,7 +208,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/toxa_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 5</h5>
@@ -235,8 +235,8 @@
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
-                                <h4>Lorem, ipsum dolor.</h4>                                
-                                <span>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</span>
+                                <h4>HUAMPICA</h4>                                
+                                <span>Acrededor de la mas hermosa laguna que es un espejo en el distrito.</span>
                             </div>
 
                             <!-- Modal turismo vista-->
@@ -245,7 +245,79 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/img6.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
+                                        </div>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 6</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
+                                        </div>
+                                    </div>                                       
+                                </div>                                
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico6">
+                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                            </a>
+                            <!-- Datos Lugar turístico -->
+                            <div>
+                                <h4>CHUSPI CHAMANA</h4>                                
+                                <span>Conocido por la exelente calidad de producción de paltos.</span>
+                            </div>
+
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico6" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                    
+                                    <div class="row text-white lead pt-5">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
+                                        </div>
+                                        <div class="col-md-12 pt-5">
+                                            <h5>Nombre lugar turistico 6</h5>
+                                            <small>Andarapa</small>
+                                            <p>
+                                                Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
+                                            </p>
+                                            <div class="modal-content bg-modal-pie-tursmo">
+                                                <a href="galeria-turismo.php?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                    VER MAS
+                                                </a>
+                                                                                         
+                                            </div>
+                                        </div>
+                                    </div>                                       
+                                </div>                                
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 pt-3">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico6">
+                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                            </a>
+                            <!-- Datos Lugar turístico -->
+                            <div>
+                                <h4>HUALLHUAYOCC</h4>                                
+                                <span>Reconocido por su produccion agricola variada con productos de gran calidad.</span>
+                            </div>
+
+                            <!-- Modal turismo vista-->
+                            <div class="modal fade" id="modal-turistico6" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                    
+                                    <div class="row text-white lead pt-5">
+                                        <div class="col-md-12">
+                                            <img src="img/img6.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 6</h5>

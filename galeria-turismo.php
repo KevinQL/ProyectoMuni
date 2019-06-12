@@ -33,7 +33,7 @@
     <section class="title-galeria bg-success">
         <div class="container text-center lead p-4">
             <h3>Tilte galery <?php echo $_GET['turismos']; ?></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, possimus delectus minus dolor obcaecati incidunt tenetur odit qui sunt ab.</p>
+            <p>Andarapa tierra de los mas hermosos valles de la región y con los mejores atractivos turísticos</p>
         </div>
     </section>
 
