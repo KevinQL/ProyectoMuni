@@ -50,8 +50,21 @@
                 // echo "valor ntc ".$ntc; //Prueba viendo valor del ntc 
                 $result = $mysqli->query("SELECT * FROM noticias LIMIT $not_init, 4");
                 $arr_notice = [];
+                $cant_noticia = 0;
                 while($reg_notice = $result->fetch_assoc()){
                     $arr_notice[] = $reg_notice;
+                    $cant_noticia++;
+                }
+
+                //Redirecciona a index.php cuando no hay más noticias
+                if($cant_noticia==0){
+                    // header('Location: index.php');
+                    // die();
+                    
+                    echo'<script type="text/javascript"> alert("NO HAY MÁS NOTICIAS!!");
+                    window.location.href="noticias.php";</script>';                   
+
+                    // echo "No hay noticia";
                 }
                 
                 foreach($arr_notice as $noticia){
@@ -114,7 +127,7 @@
 
                 <?php }?>
 
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <div class="card border-light px-1 mb-3">
                         <img src="img/img1.jpg" class="card-img-top rounded-lg" alt="...">
                         <div class="card-body">
@@ -123,11 +136,11 @@
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
-                </div>
+                </div> -->
  
 
             </div>
-
+            <!-- PÁGINACIÓN DE LAS NOTICIAS -->
 <nav aria-label="Page navigation example" class="pt-2">
   <ul class="pagination">
     <li class="page-item">
