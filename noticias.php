@@ -116,7 +116,7 @@
 
                 <div class="col-lg-6">
                     <div class="card border-light px-1 mb-3">
-                        <img src="img/img1.jpg" class="card-img-top rounded-lg" alt="...">
+                        <img src="img/img1.jpg" class="card-img-top rounded-lg " alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nombre noticia</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
