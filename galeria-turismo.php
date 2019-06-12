@@ -30,120 +30,137 @@
     </div>
 
     
-    <section class="title-galeria bg-success">
-        <div class="container text-center lead p-4">
-            <h3>Tilte galery <?php echo $_GET['turismos']; ?></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, possimus delectus minus dolor obcaecati incidunt tenetur odit qui sunt ab.</p>
+    <section class="title-galeria bg-titulo-galery">
+        <div class="container text-center p-4">
+            <h3 class="">GALERÍA <?php echo $_GET['turismos']; ?></h3>
+            <p class="text-white lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, possimus delectus minus dolor obcaecati incidunt tenetur odit qui sunt ab.</p>
         </div>
     </section>
 
 
-    <section class="galery-main">
+    <section class="my-2 ">
         <div class="container">
 
-            <div class="card mb-3 mt-2 border-light" style="max-width: 100%;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <div class="p-1">
-                            
-                            
-
-<!-- Button trigger modal -->
-<a href="#" data-toggle="modal" data-target="#turismo-img-1">
-  <img src="img/img1.jpg" height="200px" class="card-img" alt="...">
-</a>
-
-<!-- Modal -->
-<div class="modal fade" id="turismo-img-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    
+<!-- Modae four -->
+<div class="col-md-12 p-0 m-0 mb-1">
+  <!-- La imgen en la página -->
+  <a href="#" data-toggle="modal" data-target=".modal-xl-one">
+    <img src="img/img2.jpg" alt="" class="img-fluid" style="width: 100%">
+  </a>
+  <!-- Todo el modal -->
+  <div class="modal fade modal-xl-one" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <!-- Boton cerrar -->
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
-
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-    <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
-        <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
-            <img src="img/img1.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
-            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sittt.</span>
-        </div>
+    <!-- Imagen modal en tamaño largo y centrado -->
+    <div class="modal-dialog modal-dialog-centered modal-xl">        
+      <div class="modal-content">
+        <img src="img/img2.jpg" alt="" class="img-fluid" style="width: 100%">
+      </div>
     </div>
   </div>
 </div>
 
 
+<!-- varias imagenes con modales -->
 
+<div class="">
+  <div class="row px-md-3">
+    <div class="col-md-4 p-md-0">                      
 
-                        </div>
-                        <div class="p-1">
-<!-- Button trigger modal -->
-<a href="#" data-toggle="modal" data-target="#turismo-img-2">
-    <img src="img/img2.jpg" height="200px" class="card-img" alt="...">  
-</a>
-
-<!-- Modal -->
-<div class="modal fade" id="turismo-img-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-    <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
-        <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
-            <img src="img/img2.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
-            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sit.</span>
+      <!-- La imgen en la página -->
+      <a href="#" data-toggle="modal" data-target=".modal-xl-two">
+        <img src="images/img1.jpg" class="img-fluid" style="width: 100%" alt="">
+      </a>
+      <!-- Todo el modal -->
+      <div class="modal fade modal-xl-two" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <!-- Boton cerrar -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Imagen modal en tamaño largo y centrado -->
+        <div class="modal-dialog modal-dialog-centered modal-lg">        
+          <div class="modal-content">
+            <img src="images/img1.jpg" class="img-fluid" style="width: 100%" alt="">          
+          </div>
         </div>
+      </div>
+      <!-- fin model -->
+
+    </div>
+
+    <div class="col-md-4 p-md-0">
+
+      <a href="#" data-toggle="modal" data-target=".modal-xl-three">
+        <img src="images/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+      </a>
+
+      <!-- Todo el modal -->
+      <div class="modal fade modal-xl-three" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <!-- Boton cerrar -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Imagen modal en tamaño largo y centrado -->
+        <div class="modal-dialog modal-dialog-centered modal-lg">        
+          <div class="modal-content">
+            <img src="images/img2.jpg" class="img-fluid" style="width: 100%" alt="">          
+            <div class="overlay-text p-1 p-md-5 text-sm">
+              <h2>My Title of test</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias dicta placeat!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-4 p-md-0">
+      
+      <a href="#" data-toggle="modal" data-target=".modal-xl-four">
+        <img src="images/img3.jpg" class="img-fluid" style="width: 100%" alt="">
+      </a>
+
+      <!-- Todo el modal -->
+      <div class="modal fade modal-xl-four" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <!-- Boton cerrar -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- Imagen modal en tamaño largo y centrado -->
+        <div class="modal-dialog modal-dialog-centered modal-lg">        
+          <div class="modal-content">
+            <img src="images/img3.jpg" class="img-fluid" style="width: 100%" alt="">          
+            <div class="overlay-text p-1 p-md-5 text-sm">
+              <h2>My Title of test</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias dicta placeat!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>                            
-                        </div>
-                        <div class="p-1">                            
-<!-- Button trigger modal -->
-<a href="#" data-toggle="modal" data-target="#turismo-img-3">
-    <img src="img/img3.jpg" height="200px" class="card-img" alt="...">  
-</a>
+</div>
 
-<!-- Modal -->
-<div class="modal fade" id="turismo-img-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+        <!-- DESCRIPCIÓN DE LA GALERÍA DE IMG -->
+        <section class="p-5 bg-light">
+          <div class="overlay-text text-sm">
+              <h2>Título Descripción</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias dicta placeat!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed alias eaque aspernatur corrupti distinctio quibusdam aliquid non voluptatibus eum eius?
+              </p>
+<!-- fb comment -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.3"></script>              
 
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-    <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
-        <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
-            <img src="img/img3.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
-            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sit.</span>
+<div class="fb-comments" data-href="http://localhost/proyectoMuni/DEMO-CABEZA/demo/galeria-turismo.php?turismos=provincia1" data-width="100%" data-numposts="5"></div>
+<!--  fin fb comment -->
+
+            </div>
+        </section>
         </div>
-    </div>
-  </div>
-</div>                            
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="p-1">
-                          <a href="#" data-toggle="modal" data-target="#turismo-img-1">
-                            <img src="img/img5.jpg" height="200px" class="card-img" alt="...">
-                          </a> 
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            
-                    <div class="card-body">
-                        <h5 class="card-title"> Galery title</h5>
-                                               
-                        <p class="card-text">
-                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid obcaecati quasi libero? Esse, consectetur inventore sint veniam aperiam eos.
-                        </p>
-                        <p class="card-text"><small class="text-muted">publicado 20/05/19 </small></p>
-                    </div>            
-            
-        </div>
-
-
     </section>
 
     <!-- Footer Pie de página Copy Rezuam -->
