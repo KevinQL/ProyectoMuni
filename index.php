@@ -1,3 +1,32 @@
+<?php
+ob_start();
+                        require_once('Conexion.php');
+                        // echo (!empty($_GET['ntc']))."LOALA ".($_GET['ntc'] >= 0); //Prueba valor boolean 
+                        $ntc = (!empty($_GET['ntc']) && ($_GET['ntc'] >= 0))?$_GET['ntc'] : 0 ;
+                        $not_init = ($ntc != 0)? $ntc*3 : 0;
+                        // echo $not_init;
+                        // echo "valor ntc ".$ntc; //Prueba viendo valor del ntc 
+                        $result = $mysqli->query("SELECT * FROM noticias LIMIT $not_init, 3");
+                        $arr_notice = [];
+                        $cant_noticia = 0;
+                        while($reg_notice = $result->fetch_assoc()){
+                            $arr_notice[] = $reg_notice;
+                            $cant_noticia++;
+                        }
+
+                        //Redirecciona a index.php cuando no hay más noticias
+                        if($cant_noticia==0){
+                            header('Location: index.php');
+                            die();
+                            
+                            // echo'<script type="text/javascript"> alert("Conexion exitosa");
+                            // window.location.href="index.php";</script>';                   
+
+                            // echo "No hay noticia";
+                        }
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -151,18 +180,7 @@
                 <div class="col-lg-5 px-1 bg-light">                    
                     <h4 class="text-center">Noticias</h4>
 
-                    <?php
-                        require_once('Conexion.php');
-                        // echo (!empty($_GET['ntc']))."LOALA ".($_GET['ntc'] >= 0); //Prueba valor boolean 
-                        $ntc = (!empty($_GET['ntc']) && ($_GET['ntc'] >= 0))?$_GET['ntc'] : 0 ;
-                        $not_init = ($ntc != 0)? $ntc*3 : 0;
-                        // echo $not_init;
-                        // echo "valor ntc ".$ntc; //Prueba viendo valor del ntc 
-                        $result = $mysqli->query("SELECT * FROM noticias LIMIT $not_init, 3");
-                        $arr_notice = [];
-                        while($reg_notice = $result->fetch_assoc()){
-                            $arr_notice[] = $reg_notice;
-                        }
+                    <?php                        
                         
                         foreach($arr_notice as $noticia){
                             // echo $noticia['titulo_noti'];
@@ -542,3 +560,7 @@
 
 </body>
 </html>
+
+<?php
+    ob_end_flush();
+?>
