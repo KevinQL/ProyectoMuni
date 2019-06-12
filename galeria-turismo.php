@@ -64,7 +64,7 @@
     <div class="modal-content rounded rounded-lg border border-secondary bg-secondary">
         <div class="turismo-modal-interno rounded rounded-lg border border-secondary">
             <img src="img/img1.jpg" class="img-fluid rounded rounded-lg border border-secondary" alt="">
-            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sit.</span>
+            <span class="text-white p-3 turismo-galery-modal">Lorem ipsum dolor sittt.</span>
         </div>
     </div>
   </div>
@@ -122,18 +122,28 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title"> Galery title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus quisquam dolorem corporis alias. Modi id atque magnam omnis, temporibus numquam vitae alias ratione rerum obcaecati consequuntur, quasi aut asperiores sunt tempore! Odio magnam molestias asperiores magni quibusdam vitae dolorum impedit quisquam sit vero. Aperiam amet autem voluptatibus similique, nobis praesentium earum nostrum nihil aut optio corporis tempora laudantium aspernatur a voluptatum, nulla in laboriosam accusantium id ad quam et hic quasi quod. Praesentium, quae facilis fugiat nam error laboriosam quo excepturi nisi quidem perferendis. Voluptatum omnis similique at perferendis odio, et animi eius aperiam pariatur tempora minima adipisci velit.</p>
-        
-                        <p class="card-text"><small class="text-muted">Actualizado hace 20 min || publicado 20/05/19 || author: Lorem, ipsum dolor.</small></p>
-                    </div>
+                        <div class="p-1">
+                          <a href="#" data-toggle="modal" data-target="#turismo-img-1">
+                            <img src="img/img5.jpg" height="200px" class="card-img" alt="...">
+                          </a> 
+                        </div>
                     </div>
                 </div>
-            </div>        
+            </div> 
+            
+                    <div class="card-body">
+                        <h5 class="card-title"> Galery title</h5>
+                                               
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid obcaecati quasi libero? Esse, consectetur inventore sint veniam aperiam eos.
+                        </p>
+                        <p class="card-text"><small class="text-muted">publicado 20/05/19 </small></p>
+                    </div>            
+            
         </div>
+
+
     </section>
 
     <!-- Footer Pie de página Copy Rezuam -->
