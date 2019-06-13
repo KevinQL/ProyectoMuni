@@ -16,7 +16,7 @@ ob_start();
 
                         //Redirecciona a index.php cuando no hay más noticias
                         if($cant_noticia==0){
-                            header('Location: index.php');
+                            header('Location: index');
                             die();
                             
                             // echo'<script type="text/javascript"> alert("Conexion exitosa");
@@ -265,18 +265,18 @@ ob_start();
 <nav aria-label="Page navigation example" class="pt-2">
   <ul class="pagination">
     <li class="page-item">
-      <a class="page-link" href="index.php?ntc=<?php 
+      <a class="page-link" href="index?ntc=<?php 
             $prev = ($ntc > 0)? $ntc-1 : 0 ;
             echo $prev; 
         ?>#crp-general" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
       </a>
     </li>
-    <li class="page-item <?php echo ($ntc == 0)?"active":""; ?>"><a class="page-link" href="index.php?ntc=0#crp-general">1</a></li>
-    <li class="page-item <?php echo ($ntc == 1)?"active":""; ?>"><a class="page-link" href="index.php?ntc=1#crp-general">2</a></li>
-    <li class="page-item <?php echo ($ntc == 2)?"active":""; ?>"><a class="page-link" href="index.php?ntc=2#crp-general">3</a></li>
+    <li class="page-item <?php echo ($ntc == 0)?"active":""; ?>"><a class="page-link" href="index?ntc=0#crp-general">1</a></li>
+    <li class="page-item <?php echo ($ntc == 1)?"active":""; ?>"><a class="page-link" href="index?ntc=1#crp-general">2</a></li>
+    <li class="page-item <?php echo ($ntc == 2)?"active":""; ?>"><a class="page-link" href="index?ntc=2#crp-general">3</a></li>
     <li class="page-item <?php echo ($ntc >= 3)?"active":""; ?>">
-      <a class="page-link" href="index.php?ntc=<?php echo $ntc+1; ?>#crp-general" aria-label="Next">
+      <a class="page-link" href="index?ntc=<?php echo $ntc+1; ?>#crp-general" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
       </a>
     </li>

@@ -62,7 +62,7 @@
                     // die();
                     
                     echo'<script type="text/javascript"> alert("NO HAY MÁS NOTICIAS!!");
-                    window.location.href="noticias.php";</script>';                   
+                    window.location.href="noticias";</script>';                   
 
                     // echo "No hay noticia";
                 }
@@ -144,18 +144,18 @@
 <nav aria-label="Page navigation example" class="pt-2">
   <ul class="pagination">
     <li class="page-item">
-      <a class="page-link" href="noticias.php?ntc=<?php 
+      <a class="page-link" href="noticias?ntc=<?php 
             $prev = ($ntc > 0)? $ntc-1 : 0 ;
             echo $prev; 
         ?>" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
       </a>
     </li>
-    <li class="page-item <?php echo ($ntc == 0)?"active":""; ?>"><a class="page-link" href="noticias.php?ntc=0">1</a></li>
-    <li class="page-item <?php echo ($ntc == 1)?"active":""; ?>"><a class="page-link" href="noticias.php?ntc=1">2</a></li>
-    <li class="page-item <?php echo ($ntc == 2)?"active":""; ?>"><a class="page-link" href="noticias.php?ntc=2">3</a></li>
+    <li class="page-item <?php echo ($ntc == 0)?"active":""; ?>"><a class="page-link" href="noticias?ntc=0">1</a></li>
+    <li class="page-item <?php echo ($ntc == 1)?"active":""; ?>"><a class="page-link" href="noticias?ntc=1">2</a></li>
+    <li class="page-item <?php echo ($ntc == 2)?"active":""; ?>"><a class="page-link" href="noticias?ntc=2">3</a></li>
     <li class="page-item <?php echo ($ntc >= 3)?"active":""; ?>">
-      <a class="page-link" href="noticias.php?ntc=<?php echo $ntc+1; ?>" aria-label="Next">
+      <a class="page-link" href="noticias?ntc=<?php echo $ntc+1; ?>" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
       </a>
     </li>
