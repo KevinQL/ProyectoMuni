@@ -231,7 +231,7 @@
 
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico6">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/huampica_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
@@ -245,7 +245,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/huampica_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 6</h5>
@@ -267,7 +267,7 @@
                         </div>
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico6">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/chuspi_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
@@ -281,7 +281,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/chuspi_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 6</h5>
@@ -303,7 +303,7 @@
                         </div>
                         <div class="col-md-4 pt-3">
                             <a href="#" data-toggle="modal" data-target="#modal-turistico6">
-                                <img src="img/img6.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
+                                <img src="img/turismo/huall_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
                             <div>
@@ -317,7 +317,7 @@
                                     
                                     <div class="row text-white lead pt-5">
                                         <div class="col-md-12">
-                                            <img src="img/img6.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
+                                            <img src="img/turismo/huall_panoram.jpg" class="imagen_turi img-fluid m-auto h-100 w-100" alt="">
                                         </div>
                                         <div class="col-md-12 pt-5">
                                             <h5>Nombre lugar turistico 6</h5>
