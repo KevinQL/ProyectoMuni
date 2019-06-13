@@ -69,7 +69,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia1" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia1" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -106,7 +106,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia2" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia2" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -143,7 +143,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia3" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia3" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -180,7 +180,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia4" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia4" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -217,7 +217,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia5" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia5" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -254,7 +254,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -290,7 +290,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -326,7 +326,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo.php?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="galeria-turismo?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
