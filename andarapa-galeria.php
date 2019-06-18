@@ -32,7 +32,7 @@
     
     <section class="title-galeria bg-titulo-galery">
         <div class="container text-center p-4">
-            <h3 class="">GALERÍA <?php echo $_GET['turismos']; ?></h3>
+            <h3 class="">GALERÍA ANDARAPA </h3>
             <p class="text-white lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, possimus delectus minus dolor obcaecati incidunt tenetur odit qui sunt ab.</p>
         </div>
     </section>
@@ -45,7 +45,7 @@
 <div class="col-md-12 p-0 m-0 mb-1">
   <!-- La imgen en la página -->
   <a href="#" data-toggle="modal" data-target=".modal-xl-one">
-    <img src="file-ignore/andarapa/img-copia.jpg" alt="" class="rounded-lg" height="500px" style="width: 100%">
+    <img src="file-ignore/andarapa/DSC_0146.jpg" alt="" class="img-fluid rounded-lg" height="" style="width: 100%">
   </a>
   <!-- Todo el modal -->
   <div class="modal fade modal-xl-one" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
@@ -56,7 +56,7 @@
     <!-- Imagen modal en tamaño largo y centrado -->
     <div class="modal-dialog modal-dialog-centered modal-xl">        
       <div class="modal-content">
-        <img src="img/img2.jpg" alt="" class="img-fluid" style="width: 100%">
+        <img src="file-ignore/andarapa/DSC_0146.jpg" alt="" class="img-fluid" style="width: 100%">
       </div>
     </div>
   </div>
@@ -80,9 +80,9 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <!-- Imagen modal en tamaño largo y centrado -->
-        <div class="modal-dialog modal-dialog-centered modal-lg">        
+        <div class="modal-dialog modal-dialog-centered modal-xl">        
           <div class="modal-content">
-            <img src="images/img1.jpg" class="img-fluid" style="width: 100%" alt="">          
+            <img src="file-ignore/andarapa/img.jpg" class="img-fluid" style="width: 100%" alt="">          
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
     <div class="col-md-4 p-md-0">
 
       <a href="#" data-toggle="modal" data-target=".modal-xl-three">
-        <img src="images/img2.jpg" class="img-fluid" style="width: 100%" alt="">
+        <img src="file-ignore/andarapa/DSC_0128.jpg" class="img-fluid" style="width: 100%" alt="">
       </a>
 
       <!-- Todo el modal -->
@@ -105,7 +105,7 @@
         <!-- Imagen modal en tamaño largo y centrado -->
         <div class="modal-dialog modal-dialog-centered modal-lg">        
           <div class="modal-content">
-            <img src="images/img2.jpg" class="img-fluid" style="width: 100%" alt="">          
+            <img src="file-ignore/andarapa/DSC_0128.jpg" class="img-fluid" style="width: 100%" alt="">          
             <div class="overlay-text p-1 p-md-5 text-sm">
               <h2>My Title of test</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias dicta placeat!</p>
@@ -118,7 +118,7 @@
     <div class="col-md-4 p-md-0">
       
       <a href="#" data-toggle="modal" data-target=".modal-xl-four">
-        <img src="images/img3.jpg" class="img-fluid" style="width: 100%" alt="">
+        <img src="file-ignore/andarapa/DSC_0154.jpg" class="img-fluid" style="width: 100%" alt="">
       </a>
 
       <!-- Todo el modal -->
@@ -130,7 +130,7 @@
         <!-- Imagen modal en tamaño largo y centrado -->
         <div class="modal-dialog modal-dialog-centered modal-lg">        
           <div class="modal-content">
-            <img src="images/img3.jpg" class="img-fluid" style="width: 100%" alt="">          
+            <img src="file-ignore/andarapa/DSC_0154.jpg" class="img-fluid" style="width: 100%" alt="">          
             <div class="overlay-text p-1 p-md-5 text-sm">
               <h2>My Title of test</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias dicta placeat!</p>
