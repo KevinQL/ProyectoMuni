@@ -69,7 +69,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia1" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/chanta_umaca?turismos=provincia1" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -106,7 +106,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia2" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/illahuasiturismo/" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -143,7 +143,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia3" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/puyhualla?turismos=provincia3" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -180,7 +180,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia4" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/huancas?turismos=provincia4" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -217,7 +217,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia5" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/toxama?turismos=provincia5" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -254,7 +254,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/huampica?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -266,7 +266,7 @@
 
                         </div>
                         <div class="col-md-4 pt-3">
-                            <a href="#" data-toggle="modal" data-target="#modal-turistico6">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico7">
                                 <img src="img/turismo/chuspi_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
@@ -276,7 +276,7 @@
                             </div>
 
                             <!-- Modal turismo vista-->
-                            <div class="modal fade" id="modal-turistico6" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <div class="modal fade" id="modal-turistico7" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
@@ -290,7 +290,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/chuspi_chamana?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
@@ -302,7 +302,7 @@
 
                         </div>
                         <div class="col-md-4 pt-3">
-                            <a href="#" data-toggle="modal" data-target="#modal-turistico6">
+                            <a href="#" data-toggle="modal" data-target="#modal-turistico8">
                                 <img src="img/turismo/huall_pano.jpg" class="rounded-circle rounded bg-light" height="200px" width="200px" alt="">
                             </a>
                             <!-- Datos Lugar turístico -->
@@ -312,7 +312,7 @@
                             </div>
 
                             <!-- Modal turismo vista-->
-                            <div class="modal fade" id="modal-turistico6" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
+                            <div class="modal fade" id="modal-turistico8" tabindex="-1" role="dialog" aria-labelledby="modal-regidor1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                                     
                                     <div class="row text-white lead pt-5">
@@ -326,7 +326,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="galeria-turismo?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/huallhuayocc?turismos=provincia6" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          

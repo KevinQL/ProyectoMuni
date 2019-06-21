@@ -25,6 +25,13 @@ ob_start();
                             // echo "No hay noticia";
                         }
 
+                        //Cosulta para imagenes de slider
+                        $resultSlider = $mysqli->query("SELECT * FROM slider LIMIT 0, 6");
+                        $arr_slider = [];                        
+                        while($reg_slider = $resultSlider->fetch_assoc()){
+                            $arr_slider[] = $reg_slider;                            
+                        }
+
 ?>
 
 <!DOCTYPE html>
@@ -116,19 +123,28 @@ ob_start();
             <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:100%;margin:0 auto;">
                 <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
                     <ul class="amazingslider-slides" style="display:none;">
+                        <?php
+                        foreach($arr_slider as $slider){
+                            // echo $slider['titulo_noti'];                        
+                        ?>
                         <li>
-                            <img src="images/img1.jpg" class="img-fluid" alt="img1"  title="this is description of the image" />                    
+                            <img src="<?php echo $slider['ruta']; ?>" class="img-fluid" alt="img<?php echo $slider['idslider']; ?>"  title="<?php echo $slider['titulo_slider']; ?>" />                    
                         </li>
-                        <li><img src="images/img2.jpg" class="img-fluid" alt="img2"  title="this is description of the image" />
+
+                        <?php
+                            }
+                        ?>
+
+                        <!-- <li><img src="<?php echo 'images/img2.jpg'; ?>" class="img-fluid" alt="img2"  title="this is description of the image" />
                         </li>
-                        <li><img src="images/img3.jpg" class="img-fluid" alt="img3"  title="this is description of the image" />
+                        <li><img src="<?php echo 'images/img3.jpg'; ?>" class="img-fluid" alt="img3"  title="this is description of the image" />
                         </li>
-                        <li><img src="images/img4.jpg" class="img-fluid" alt="img4"  title="this is description of the image" />
+                        <li><img src="<?php echo 'images/img4.jpg'; ?>" class="img-fluid" alt="img4"  title="this is description of the image" />
                         </li>
-                        <li><img src="images/img5.jpg" class="img-fluid" alt="img5"  title="this is description of the image" />
+                        <li><img src="<?php echo 'images/img5.jpg'; ?>" class="img-fluid" alt="img5"  title="this is description of the image" />
                         </li>
-                        <li><img src="images/img6.jpg" class="img-fluid" alt="img6"  title="this is description of the image" />
-                        </li>
+                        <li><img src="<?php echo 'images/img6.jpg'; ?>" class="img-fluid" alt="img6"  title="this is description of the image" />
+                        </li> -->
                     </ul>
                     <ul class="amazingslider-thumbnails" style="display:none;">
                         <li><img src="images/img1.jpg" alt="img1" title="img1" /></li>
