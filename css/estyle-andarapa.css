@@ -142,7 +142,7 @@ body, html {
 
 /* MUNICIPIO */
 .opacidad-org{
-    background: rgba(127, 73, 253, 0.6);
+    background: rgba(253, 73, 73, 0.6);
 }
 /* FIN MUNICIPIO */
 /* --------------------------------------------- */
@@ -193,4 +193,33 @@ body, html {
 .imagen_turi{
     filter: saturate(130%);
     border-radius:35px;
+}
+.letra_turi{
+    color: rgb(60, 99, 2);
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 180%;
+
+}
+.letra_turi1{
+    color: rgb(255, 255, 255);
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 180%;
+
+}
+.letra_turi_contenido{
+    color: rgb(0, 0, 0);
+    font-family: 'Merienda', cursive;
+
+}
+.letra_turi_contenido1{
+    color: rgb(255, 255, 255);
+    font-family: 'Merienda', cursive;
+}
+.fondocomun{
+    background: rgba(255, 251, 0, 0.6);
+    border-top-color: black;
+}
+.fondocomun1{
+    background: black;
+    border-top-color: black;
 }

@@ -30,7 +30,7 @@
     </div>    
 
     <!-- CUERPO NOTICIAS -->
-    <section class="bg-secondary">
+    <section class="fondocomun">
         <div class="container p-4 text-center text-white lead">
             <h2>Sección Noticias</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur mollitia doloremque ea eveniet optio cum quisquam quibusdam a repellendus repudiandae?</p>
