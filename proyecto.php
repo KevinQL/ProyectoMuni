@@ -29,10 +29,9 @@
         <?php include('navegar.php'); ?>
     </div>
 
-    <section class="bg-dark py-4" id="ejecutados">
+    <section class="fondocomun py-4" id="ejecutados">
         <div class="container text-center lead text-white">
             <h3>Obras y Proyectos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates eligendi, aspernatur aperiam iure quidem accusantium provident necessitatibus ab iste quaerat?</p>
             <div class="d-flex justify-content-center">
             <form action="" class="form-inline">
                     <input type="search" class="form-control form-control-lg" placeholder="Buscar Proyecto">
@@ -76,7 +75,7 @@
         </div>
     </section>
 
-    <section class="bg-dark p-4" id="en-proceso">
+    <!--<section class="bg-dark p-4" id="en-proceso">
         <div class="container text-center lead text-white">
             <h3>Obras y Proyectos</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates eligendi, aspernatur aperiam iure quidem accusantium provident necessitatibus ab iste quaerat?</p>
@@ -88,7 +87,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="">
         <div class="container py-4">
@@ -117,7 +116,7 @@
 
 
 
-        <section class="bg-dark p-4" id="proyectadas">
+        <!--<section class="bg-dark p-4" id="proyectadas">
             <div class="container text-center lead text-white">
                 <h3>Obras y Proyectos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates eligendi, aspernatur aperiam iure quidem accusantium provident necessitatibus ab iste quaerat?</p>
@@ -129,7 +128,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section>-->
         
         <section class="">
             <div class="container py-4">
