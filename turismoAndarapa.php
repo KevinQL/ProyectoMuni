@@ -106,7 +106,7 @@
                                                 Descripción lugar turístico Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta ipsa beatae dolore. Velit, reprehenderit esse assumenda fugit deserunt numquam officiis explicabo odit nesciunt dolorem amet eveniet aliquam reiciendis ipsam.
                                             </p>
                                             <div class="modal-content bg-modal-pie-tursmo">
-                                                <a href="turismo/illahuasiturismo/" class="btn btn-lg btn-outline-warning bt-block">
+                                                <a href="turismo/illahuasi" class="btn btn-lg btn-outline-warning bt-block">
                                                     VER MAS
                                                 </a>
                                                                                          
