@@ -29,9 +29,10 @@
         <?php include('navegar.php'); ?>
     </div>
 
-    <section class="fondocomun py-4" id="ejecutados">
+    <section class="bg-dark py-4" id="ejecutados">
         <div class="container text-center lead text-white">
             <h3>Obras y Proyectos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, quibusdam?</p>
             <div class="d-flex justify-content-center">
             <form action="" class="form-inline">
                     <input type="search" class="form-control form-control-lg" placeholder="Buscar Proyecto">
