@@ -32,7 +32,7 @@
     </div>
 
     <!-- SECCIÓN SALUDO ALCALDE  -->
-    <section class="bg-light" id="alcalde-regidores">
+    <section class="fondocomun" id="alcalde-regidores">
         <div class="container py-4 text-center lead text-muted">
             <h3>Alcalde y regidores</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, amet.</p>
