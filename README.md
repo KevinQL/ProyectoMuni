@@ -1,15 +1,11 @@
 ###### Rezuam Tech
-# IMPLEMENTACIÓN DE UNA PAGINA WEB PARA LA ITEC 
+# IMPLEMENTACIÓN DE UNA PAGINA WEB PARA UNA MUNICIPIO
 
-GRUPO DE PROYECTO
-- Ing. KEVIN QUISPE LIMA. Programador web.
-- Ing. LENYN E. FLORES BALANDRA. Gestor de proyecto.
-
-Trabajo desarrollado para el instituto tecnológico de andahuaylas, donde se llego a desarrollar una plataforma web con las siguientes funcionalidades. Un gestor de contenidos para las publicacion de los distintos cursos que ofreece el instituto.
+El trabajo consistió en la implementación de una página web informativa, con un panel de administración para gestionar el contenido de la página.
 
 Página principal publco
 
-![img-pagina](https://github.com/KevinQL/page-institute/blob/master/public/screenItex.png)
+![img-pagina](https://raw.githubusercontent.com/KevinQL/ProyectoMuni/cambios/images/img-readme/FireShot%20Capture%20003%20-%20Muni-Andarapa%20-%20localhost.png)
 
 Página para la gestión de contenido.
 
