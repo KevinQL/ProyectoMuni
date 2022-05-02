@@ -79,14 +79,14 @@ ob_start();
         <div class="container-fluid d-flex justify-content-between">            
             <div class="d-md-block d-none">
                 <!-- <img src="img/logo-andarapa.png" height="50px" alt="logo"> -->
-                <img src="img/logo-andarapa.png" class="logo-tipo-lenyn" height="50px" alt="logo">
+                <!-- <img src="img/logo-andarapa.png" class="logo-tipo-lenyn" height="50px" alt="logo"> -->
             </div>
 
             <div class="">
-                <img src="img/gestion2019-2022.png" class="img-fluid d-block m-auto" width="200px" height="50px" alt="">
-                <div class="text-center">                    
+                <img src="img/gestion2019-2022.png" class="img-fluid d-block m-auto" width="330px" height="" alt="">
+                <!-- <div class="text-center">                    
                     <span class="text-muted text-center">MUNICIPALIDAD DE ANDARAPA</span>
-                </div>
+                </div> -->
             </div>
 
             <div class="">                
@@ -135,7 +135,7 @@ ob_start();
                             }
                         ?>
 
-                        <!-- <li><img src="<?php echo 'images/img2.jpg'; ?>" class="img-fluid" alt="img2"  title="this is description of the image" />
+                        <li><img src="<?php echo 'images/img2.jpg'; ?>" class="img-fluid" alt="img2"  title="this is description of the image" />
                         </li>
                         <li><img src="<?php echo 'images/img3.jpg'; ?>" class="img-fluid" alt="img3"  title="this is description of the image" />
                         </li>
@@ -144,7 +144,7 @@ ob_start();
                         <li><img src="<?php echo 'images/img5.jpg'; ?>" class="img-fluid" alt="img5"  title="this is description of the image" />
                         </li>
                         <li><img src="<?php echo 'images/img6.jpg'; ?>" class="img-fluid" alt="img6"  title="this is description of the image" />
-                        </li> -->
+                        </li>
                     </ul>
                     <ul class="amazingslider-thumbnails" style="display:none;">
                         <li><img src="images/img1.jpg" alt="img1" title="img1" /></li>
